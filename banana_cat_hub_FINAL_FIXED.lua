@@ -66,8 +66,8 @@ local Root = HumanoidRootPart
 Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/TranGiaHao-source/Test/refs/heads/main/ui%20BananaHub.lua"))()
 
 Window = Library:CreateWindow({
-    Title = "HDanh Hub",
-    Desc = "- Blox Fruit",
+    Title = "Hao Mod Hub",
+    Desc = "- Blox Fruits",
     Image = "rbxassetid://123613996022560"
 })
 
