@@ -14,12 +14,12 @@ getgenv().Nousigi = true
 local DisableAnimation = game.Players.LocalPlayer.PlayerGui:FindFirstChild('TouchGui')
 
 local T1UIColor = {
-    ["Border Color"] = Color3.fromRGB(50, 50, 50),
-    ["Click Effect Color"] = Color3.fromRGB(200, 40, 40),
+    ["Border Color"] = Color3.fromRGB(255, 215, 0),
+    ["Click Effect Color"] = Color3.fromRGB(255, 215, 0),
     ["Setting Icon Color"] = Color3.fromRGB(200, 200, 200),
-    ["Logo Image"] = "rbxassetid:// 89947810111304",
-    ["Search Icon Color"] = Color3.fromRGB(200, 40, 40),
-    ["Search Icon Highlight Color"] = Color3.fromRGB(255, 60, 60),
+    ["Logo Image"] = "rbxassetid://123613996022560",
+    ["Search Icon Color"] = Color3.fromRGB(255, 215, 0),
+    ["Search Icon Highlight Color"] = Color3.fromRGB(255, 235, 120),
     ["GUI Text Color"] = Color3.fromRGB(240, 240, 240),
     ["Text Color"] = Color3.fromRGB(240, 240, 240),
     ["Placeholder Text Color"] = Color3.fromRGB(100, 100, 100),
@@ -32,30 +32,29 @@ local T1UIColor = {
     ["Background 3 Color"] = Color3.fromRGB(25, 25, 25),
     ["Background Image"] = "",
     
-    ["Page Selected Color"] = Color3.fromRGB(200, 40, 40),
+    ["Page Selected Color"] = Color3.fromRGB(255, 215, 0),
     ["Section Text Color"] = Color3.fromRGB(255, 255, 255),
-    ["Section Underline Color"] = Color3.fromRGB(200, 40, 40),
+    ["Section Underline Color"] = Color3.fromRGB(255, 215, 0),
     ["Toggle Border Color"] = Color3.fromRGB(70, 70, 70),
-    ["Toggle Checked Color"] = Color3.fromRGB(200, 40, 40),
+    ["Toggle Checked Color"] = Color3.fromRGB(255, 215, 0),
     ["Toggle Desc Color"] = Color3.fromRGB(180, 180, 180),
     
     ["Button Color"] = Color3.fromRGB(35, 35, 35),
     ["Label Color"] = Color3.fromRGB(28, 28, 28),
-    ["Dropdown Icon Color"] = Color3.fromRGB(200, 40, 40),
-    ["Dropdown Selected Color"] = Color3.fromRGB(200, 40, 40),
+    ["Dropdown Icon Color"] = Color3.fromRGB(255, 215, 0),
+    ["Dropdown Selected Color"] = Color3.fromRGB(255, 215, 0),
     ["Dropdown Selected Check Color"] = Color3.fromRGB(255, 255, 255),
     
-    ["Textbox Highlight Color"] = Color3.fromRGB(200, 40, 40),
-    ["Box Highlight Color"] = Color3.fromRGB(200, 40, 40),
+    ["Textbox Highlight Color"] = Color3.fromRGB(255, 215, 0),
+    ["Box Highlight Color"] = Color3.fromRGB(255, 215, 0),
     ["Slider Line Color"] = Color3.fromRGB(45, 45, 45),
-    ["Slider Highlight Color"] = Color3.fromRGB(200, 40, 40),
+    ["Slider Highlight Color"] = Color3.fromRGB(255, 215, 0),
     
     ["Tween Animation 1 Speed"] = DisableAnimation and 0 or 0.25,
     ["Tween Animation 2 Speed"] = DisableAnimation and 0 or 0.5,
     ["Tween Animation 3 Speed"] = DisableAnimation and 0 or 0.1,
     ["Text Stroke Transparency"] = .8 
 }
-
 
 
 getgenv().UIColor = T1UIColor
@@ -3870,5 +3869,6 @@ end
 
 	return Main_Function
 end
+
 
 return Library
