@@ -14,48 +14,59 @@ getgenv().Nousigi = true
 local DisableAnimation = game.Players.LocalPlayer.PlayerGui:FindFirstChild('TouchGui')
 
 local T1UIColor = {
-    ["Border Color"] = Color3.fromRGB(255, 215, 0),
-    ["Click Effect Color"] = Color3.fromRGB(255, 215, 0),
-    ["Setting Icon Color"] = Color3.fromRGB(200, 200, 200),
+    ["Border Color"] = Color3.fromRGB(255, 200, 0),
+    ["Click Effect Color"] = Color3.fromRGB(255, 200, 0),
+    ["Setting Icon Color"] = Color3.fromRGB(255, 200, 0),
     ["Logo Image"] = "rbxassetid://123613996022560",
-    ["Search Icon Color"] = Color3.fromRGB(255, 215, 0),
-    ["Search Icon Highlight Color"] = Color3.fromRGB(255, 235, 120),
-    ["GUI Text Color"] = Color3.fromRGB(240, 240, 240),
-    ["Text Color"] = Color3.fromRGB(240, 240, 240),
-    ["Placeholder Text Color"] = Color3.fromRGB(100, 100, 100),
-    ["Title Text Color"] = Color3.fromRGB(255, 255, 255),
+    ["Search Icon Color"] = Color3.fromRGB(255, 200, 0),
+    ["Search Icon Highlight Color"] = Color3.fromRGB(255, 220, 80),
+
+    -- CHỮ VÀNG
+    ["GUI Text Color"] = Color3.fromRGB(255, 200, 0),
+    ["Text Color"] = Color3.fromRGB(255, 200, 0),
+    ["Placeholder Text Color"] = Color3.fromRGB(160, 140, 50),
+    ["Title Text Color"] = Color3.fromRGB(255, 215, 0),
     
-    ["Background Main Color"] = Color3.fromRGB(15, 15, 15), 
-    ["Background 1 Color"] = Color3.fromRGB(22, 22, 22),
+    -- NỀN ĐEN
+    ["Background Main Color"] = Color3.fromRGB(10, 10, 10), 
+    ["Background 1 Color"] = Color3.fromRGB(18, 18, 18),
     ["Background 1 Transparency"] = 0.05,
-    ["Background 2 Color"] = Color3.fromRGB(30, 30, 30),
-    ["Background 3 Color"] = Color3.fromRGB(25, 25, 25),
+    ["Background 2 Color"] = Color3.fromRGB(25, 25, 25),
+    ["Background 3 Color"] = Color3.fromRGB(20, 20, 20),
     ["Background Image"] = "",
     
-    ["Page Selected Color"] = Color3.fromRGB(255, 215, 0),
-    ["Section Text Color"] = Color3.fromRGB(255, 255, 255),
-    ["Section Underline Color"] = Color3.fromRGB(255, 215, 0),
-    ["Toggle Border Color"] = Color3.fromRGB(70, 70, 70),
-    ["Toggle Checked Color"] = Color3.fromRGB(255, 215, 0),
-    ["Toggle Desc Color"] = Color3.fromRGB(180, 180, 180),
+    -- TAB VÀNG
+    ["Page Selected Color"] = Color3.fromRGB(255, 200, 0),
+    ["Section Text Color"] = Color3.fromRGB(255, 200, 0),
+    ["Section Underline Color"] = Color3.fromRGB(255, 200, 0),
+
+    -- TOGGLE VÀNG RÕ
+    ["Toggle Border Color"] = Color3.fromRGB(255, 200, 0),
+    ["Toggle Checked Color"] = Color3.fromRGB(255, 200, 0),
+    ["Toggle Desc Color"] = Color3.fromRGB(200, 180, 80),
     
-    ["Button Color"] = Color3.fromRGB(35, 35, 35),
-    ["Label Color"] = Color3.fromRGB(28, 28, 28),
-    ["Dropdown Icon Color"] = Color3.fromRGB(255, 215, 0),
-    ["Dropdown Selected Color"] = Color3.fromRGB(255, 215, 0),
-    ["Dropdown Selected Check Color"] = Color3.fromRGB(255, 255, 255),
+    -- BUTTON VÀNG
+    ["Button Color"] = Color3.fromRGB(255, 200, 0),
+    ["Label Color"] = Color3.fromRGB(40, 40, 40),
+
+    -- DROPDOWN VÀNG
+    ["Dropdown Icon Color"] = Color3.fromRGB(255, 200, 0),
+    ["Dropdown Selected Color"] = Color3.fromRGB(255, 200, 0),
+    ["Dropdown Selected Check Color"] = Color3.fromRGB(0, 0, 0),
     
-    ["Textbox Highlight Color"] = Color3.fromRGB(255, 215, 0),
-    ["Box Highlight Color"] = Color3.fromRGB(255, 215, 0),
-    ["Slider Line Color"] = Color3.fromRGB(45, 45, 45),
-    ["Slider Highlight Color"] = Color3.fromRGB(255, 215, 0),
+    -- TEXTBOX / BOX
+    ["Textbox Highlight Color"] = Color3.fromRGB(255, 200, 0),
+    ["Box Highlight Color"] = Color3.fromRGB(255, 200, 0),
+
+    -- SLIDER VÀNG
+    ["Slider Line Color"] = Color3.fromRGB(50, 50, 50),
+    ["Slider Highlight Color"] = Color3.fromRGB(255, 200, 0),
     
     ["Tween Animation 1 Speed"] = DisableAnimation and 0 or 0.25,
     ["Tween Animation 2 Speed"] = DisableAnimation and 0 or 0.5,
     ["Tween Animation 3 Speed"] = DisableAnimation and 0 or 0.1,
     ["Text Stroke Transparency"] = .8 
 }
-
 
 getgenv().UIColor = T1UIColor
 getgenv().AllControls = {}
@@ -3872,3 +3883,4 @@ end
 
 
 return Library
+
