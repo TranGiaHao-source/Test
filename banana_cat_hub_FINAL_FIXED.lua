@@ -2878,7 +2878,7 @@ Tabs.Info:AddButton({
     end
 })
 Tabs.Info:AddButton({
-    ["Title"] = "HaoLiveMusic",
+    ["Title"] = "HaoLoveMusic",
     ["Description"] = "Tiktok",
     ["Callback"] = function()
         setclipboard(tostring("tiktok.com/@ghaodz2409"))
