@@ -70,7 +70,21 @@ Window = Library:CreateWindow({
     Desc = "- Blox Fruits",
     Image = "rbxassetid://123613996022560"
 })
-
+pcall(function()
+    if Library.SetTheme then
+        Library:SetTheme({
+            Background = Color3.fromRGB(15,15,15),
+            Accent = Color3.fromRGB(255,215,0), -- vàng
+            PrimaryText = Color3.fromRGB(255,255,255),
+            SecondaryText = Color3.fromRGB(200,200,200),
+            Divider = Color3.fromRGB(255,215,0),
+            Button = Color3.fromRGB(25,25,25),
+            ButtonHover = Color3.fromRGB(40,40,40),
+            ToggleEnabled = Color3.fromRGB(255,215,0),
+            ToggleDisabled = Color3.fromRGB(60,60,60)
+        })
+    end
+end)
 -- ==========================================
 -- TẠO CÁC TABS (ĐÚNG API: AddTab nhận string)
 -- ==========================================
