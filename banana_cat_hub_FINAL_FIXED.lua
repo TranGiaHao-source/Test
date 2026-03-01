@@ -2871,24 +2871,17 @@ task.defer(function()
 end)
 Tabs.Info:AddSection("Thông Tin")
 Tabs.Info:AddButton({
-    ["Title"] = "HDanh Community",
+    ["Title"] = "Hao Mod Hub Community",
     ["Description"] = "Discord",
     ["Callback"] = function()
-        setclipboard(tostring("https://dsc.gg/nopermc"))
+        setclipboard(tostring("https://discord.gg/DKbu5RY67F"))
     end
 })
 Tabs.Info:AddButton({
-    ["Title"] = "HDanh Hub",
-    ["Description"] = "Youtube",
-    ["Callback"] = function()
-        setclipboard(tostring("https://youtube.com/@nopermc"))
-    end
-})
-Tabs.Info:AddButton({
-    ["Title"] = "HDanh Hub",
+    ["Title"] = "HaoLiveMusic",
     ["Description"] = "Tiktok",
     ["Callback"] = function()
-        setclipboard(tostring("www.tiktok.com/@uytins1vn._"))
+        setclipboard(tostring("tiktok.com/@ghaodz2409"))
     end
 })
 Tabs.Info:AddParagraph({
